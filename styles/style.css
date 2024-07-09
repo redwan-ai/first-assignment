@@ -6,7 +6,7 @@
     font-weight: <weight>;
     font-style: normal;
   }
-
+ /*header section */
   .banner{
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -52,3 +52,48 @@
     border: 1px solid black;
     border-radius: 4px;
   }
+  /*  why web dev part  */
+  .second-banner{
+    height: 1393px;
+    width: 1140px;
+    background-color: rgb(246, 245, 243, 40%);
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    border: 1px solid rgb(246, 245, 243, 40%);
+    border-radius: 4px;
+  }
+  .why-web{
+    text-align: center;
+    margin: 80px 0 0 0;
+  }
+  .why-web h2{
+    font-size: 32px;
+  }
+
+  .web-part-one{
+    display: flex;
+    height: auto;
+    width: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 0 80px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: #0D1321;
+  }
+  .web-part-one>div h1,p{
+    padding: 0 0 0 50px;
+  }
+  .web-part-one button{
+    margin-top: 18px;
+    margin-left: 50px;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+  }
+  
