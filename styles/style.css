@@ -179,6 +179,7 @@
     margin: 0 auto;
     padding: 0px;
     gap: 10px;
+
   }
   .target{
     margin: auto;
@@ -187,6 +188,7 @@
     border: 2px solid rgb(255, 255, 255);
     padding: 30px;
     border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    
   }
   #first{
@@ -205,3 +207,33 @@
   .target a{
     color: #0D1321;
   }
+   /*My next target*/
+   .my-next-target{
+    text-align: center;
+   }
+   .yet-to-learn{
+    width: 750px;
+    height: 270px;
+    margin: 0 auto;
+    display: flex;
+    text-align: start;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 10px;
+    padding:  0 120px;
+    gap: 40px;
+   }
+   .yet-to-learn img{
+    margin: 60px 0;
+   }
+   .advanced-learning{
+    margin: 30px 50px;
+   }
+   .advanced-learning h2{
+    font-size: 24px;
+   }
+   .advanced-learning h6,a{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 300;
+   }
