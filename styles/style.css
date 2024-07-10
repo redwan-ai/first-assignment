@@ -10,8 +10,9 @@
   .banner{
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
-    width: 1440px;
+    width: 1420px;
     height: 652px;
+    
 }
   .upper{
     display: flex;
@@ -36,6 +37,7 @@
   .background-lower{
     text-align: center;
     align-items: center;
+    padding: 0 100px;
   }
   .background-lower h3{
     font-size: 48px;
@@ -142,7 +144,7 @@
   }
   .inspire-video{
     width: 1010px;
-    height: 465px;
+    height: 450px;
     box-sizing: border-box;
     border: 2px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -158,8 +160,48 @@
 .inspire-video-content iframe{
   
     width: 940px;
-    height: 400px;
+    height: 380px;
     border-radius: 16px;
     justify-content: center;
     
 }
+  /*My current target*/
+  .my-current-target{
+    text-align: center;
+    margin-top: 130px;
+  }
+  .target-assets{
+    margin: 100px;
+    text-align: start;
+    display: flex;
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    padding: 0px;
+    gap: 10px;
+  }
+  .target{
+    margin: auto;
+    height: 220px;
+    width:290px ;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 16px;
+   
+  }
+  #first{
+    background-color: #ff4b1e13;
+  }
+  #second{
+    background-color: #004CE815;
+  }
+  #third{
+    background-color: #FFDF0015;
+  }
+  .target h6{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .target a{
+    color: #0D1321;
+  }
