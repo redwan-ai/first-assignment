@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Assignment</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script>
+        function scrollToFooter() {
+            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -20,7 +25,9 @@
                 <h3> "In the near future, I hope to become a Developer."</h3>
                 <p>Aspiring to be a developer means embracing a journey of continuous learning and innovation. <br> It's about mastering coding languages, solving complex problems.</p>
            <br><br><br>
-            <button>Contact With Me</button>
+            <button onclick="scrollToFooter()">Contact With Me
+                
+            </button>
         </div>
         </div>
         </section>
@@ -39,7 +46,7 @@
                 <img src="assets/Group 3.png" alt="">
                 <div class="part-two-contents">
                     <h1>I will help People by creating Modern Web System</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate accusantium, mollitia cumque quaerat alias in</p>
+                <p>A modern web system seamlessly integrates cutting-edge technologies like React for frontend interactivity, Node.js for backend scalability, and MongoDB for flexible data management.</p>
             <button>Learn More</button></div>
             </div>
             <div class="web-part-three">
@@ -55,7 +62,7 @@
         <section class="my-inspiration">
             <div>
                 <h3>My Inspiration</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p>Finding inspiration in web development can come from various sources, such as innovative design trends,<br> problem-solving through coding, or the creative freedom to build interactive experiences.</p>
             </div>
             <div class="inspire-video">
                 <div class="inspire-video-content">
@@ -66,7 +73,7 @@
         <section>
             <div class="my-current-target">
                 <h1>My Current Target</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                <p>Start with HTML and CSS to build the structure and style of web pages, then move <br> on to JavaScript for interactivity,Practice responsive design with media queries.</p>
                 <div class="target-assets">
                     <div id="first" class="target">
                         <img src="assets/html.png" alt="">
@@ -93,10 +100,10 @@
             <div class="my-next-target">
                 <div>
                     <h1>My Next Target</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text.</p> <br>
+                <p>Taking on MongoDB ,Reactjs and Next.js as my next targets is part of my commitment to continuous learning. <br> Each new technology I master brings me one step closer to becoming a more versatile and skilled developer.</p> <br>
                 </div>
                 <div class="yet-to-learn">
-                    <img src="assets/react.png" alt="" height="120px" width="120px">
+                   <div> <img src="assets/react.png" alt=""></div>
                     <div  class="advanced-learning">
                         <h2>ReactJS</h2>
                         <h6>React is a JavaScript library for building user interfaces by creating reusable UI components.
@@ -105,7 +112,7 @@
                     </div>
                 </div>
                 <div class="yet-to-learn">
-                    <img src="assets/nodejs.png" alt="" height="120px" width="120px">
+                    <div><img src="assets/nodejs.png" alt=""></div>
                     <div  class="advanced-learning">
                         <h2>nodeJS</h2>
                         <h6>Node.js is a runtime environment that allows you to run JavaScript code on the server-side, enabling the development of scalable and high-performance network applications.</h6>
@@ -113,7 +120,8 @@
                     </div>
                 </div>
                 <div class="yet-to-learn">
-                    <img src="assets/mongodb.png" alt="" height="120px" width="120px">
+                    <div><img src="assets/mongodb.png" alt="" ></div>
+                    
                     <div  class="advanced-learning">
                         <h2>MongoDB</h2>
                         <h6>MongoDB is a NoSQL database that stores data in JSON-like documents, providing flexibility and scalability.
@@ -136,7 +144,7 @@
         </div>
     </section>
     </main>
-    <footer> 
+    <footer id="footer"> 
         <div class="footer">
             <div>
                 <h3>An Open Commitment by Awlad Hossain</h3>
@@ -147,7 +155,6 @@
                 <a href="www.linkedin.com"> <img src="assets/linkedin-icon 1.png" alt=""></a>
         </div>
         </div>
-        
     </footer>
 </body>
 </html>
