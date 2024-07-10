@@ -11,7 +11,7 @@
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     width: 1420px;
-    height: 652px;
+    height: 852px;
 
 }
   .upper{
@@ -44,7 +44,7 @@
     font-size: 48px;
   }
   .background-lower p{
-    font-size: 14px;
+    font-size: 17px;
     word-wrap: break-word;
   }
   .background-lower button{
