@@ -71,7 +71,7 @@
     font-size: 32px;
   }
 
-  .web-part-one{
+  .web-part-one, .web-part-three{
     display: flex;
     height: auto;
     width: auto;
@@ -96,4 +96,34 @@
     text-align: center;
     font-weight: 600;
   }
+  .why-web-part-two{
+    display: flex;
+    margin: 15px 135px;
+    align-items: center;
+  }
   
+  .part-two-contents h1{
+    margin: 0 0 0 50px;
+  }
+  .part-two-contents button{
+    margin: 0 0 0 50px;
+    margin-top: 5px;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+  .web-part-three>div h1,p{
+    padding: 0 0 0 50px;
+  }
+  .web-part-three button{
+    margin-top: 18px;
+    margin-left: 50px;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+  }
